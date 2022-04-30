@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <meta httpequiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="personal portfolio, front-end Developer , simple portfolio, web developer" />
+    <link rel="stylesheet" href="portf.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Front-end Developer</title>
+    <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      .fa {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+      }
+      .fa:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        display: inline-block;
+        transition: 0.5s;
+      }
+    </style>
+    <body>
+      <div class="nav">
+        <div class="header">
+          <div class="logo"><ꪖNꪖNYꫝ/></div>
+        </div>
+
+        <div class="navpage">
+          <a href="#firstpage">Home</a>
+          <a href="#about" >About</a>
+          <a href="#project">Projects</a>
+          <a href="#contact" >Contact</a>
+        </div>
+      </div>
+      <section id="firstpage " class="home">
+        <div class="name">
+          <h1>Hi, I am Ananya Singh Sengar</h1>
+          <h3>Front-end Developer</h3>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </div>
+      </section>
+      <section id="about">
+        <h2 class="aboutme">About Me</h2>
+        <div class="containera">
+          <div class="row">
+            <div class="column1">
+              <img src="girl.png" />
+            </div>
+            <div class="column2">
+              <p class="abouth">A bit about me</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloribus aut, dignissimos placeat commodi ullam vel quis
+                maiores quaerat earum tempore unde sequi. Rem, explicabo vero
+                esse pariatur dignissimos iste quas? Exercitationem voluptatibus
+                cumque vero corrupti autem hic facilis? Fugit, asperiores et
+                velit beatae voluptatibus magnam delectus laboriosam quidem!
+                Ratione, cum! Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Suscipit dolorum porro nostrum mollitia
+                asperiores? Fugiat vitae, laborum mollitia necessitatibus,
+                assumenda recusandae architecto eveniet id adipisci facilis
+                voluptatum blanditiis tempore voluptatibus?
+              </p>
+              <p class="abouth abouth1">What I do</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis harum praesentium est cum velit officia.
+              </p>
+              <div class="icon">
+                <li><img src="html.png" alt="HTML-5" /></li>
+                <li><img src="css.png" alt="CSS-3" /></li>
+                <li><img src="java.png" alt="JavaScript" /></li>
+                <li><img src="nod.png" alt="Nodejs" /></li>
+                <li><img src="boot2.png" alt="Bootstrap" /></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h1 class="projecth">Projects</h1>
+        <div class="projectlist">
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+        </div>
+        <div class="projectlist">
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+          <div class="project1">
+            <img src="pro.png" alt="" />
+            <h2 class="para">Landing page</h2>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h1 class="Contheading">Contact</h1>
+          <div class="row">
+            <div class="column">
+              <p>Email:</p>
+              <p class="emaill">
+                <i class="fa fa-envelope" aria-hidden="true"
+                  >ananyaxyz123gmail.com</i
+                >
+              </p>
+              <p>Address:</p>
+              <p class="addr">XYZ Colony, Delhi India</p>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </div>
+            <div class="column">
+              <form action="">
+                <p>
+                  Name:
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Write your name here"
+                    required
+                  />
+                </p>
+                <p>
+                  Email:
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="abc123@gmail.com"
+                    required
+                  />
+                </p>
+                <p>
+                  Message:
+                  <textarea
+                    placeholder="Enter your message"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </p>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer><p class="text-footer">Designed by Ananya Singh Sengar</p></footer>
+    </body>
+  </head>
+</html>

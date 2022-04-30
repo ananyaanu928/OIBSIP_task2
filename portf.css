@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #998ceb;
+  height: 50px;
+  width: 100%;
+  border-bottom: 0.2px solid grey;
+  z-index: 1;
+}
+
+.nav .header {
+  display: inline;
+}
+
+.nav .header .logo {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav .navpage {
+  float: right;
+  display: inline;
+  font-size: 19px;
+}
+
+.nav .navpage a {
+  text-decoration: none;
+  padding: 12px 18px;
+  display: inline-block;
+  color: #fff;
+}
+
+.nav .navpage a:hover {
+  background-color: grey;
+}
+.home{
+  height: 100vh;
+  background-color: #998ceb;
+}
+.name {
+  padding-top: 220px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.name :hover {
+  color: grey;
+}
+h1 {
+  font-size: 40px;
+}
+h3{
+  font-size: 25px;
+}
+
+#about {
+  height: 90vh;
+}
+.aboutme{
+  padding-top: 50px;
+  margin-bottom: 5px;
+  font-size: 40px;
+  color: #998ceb;
+  margin-left: 45%;
+}
+.abouth {
+  color: grey;
+  font-size: 20px;
+  margin-left: 0;
+  font-weight: 595;
+  margin-right: 500px;
+}
+.containera {
+  color: rgb(125, 118, 118);
+  margin-left: 130px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 590;
+  word-spacing: 2px;
+  padding: 10px;
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+.column1 img {
+  margin-top: 10px;
+  width: 300px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+}
+.column1 img:hover {
+  cursor: pointer;
+}
+
+.column2 {
+  width: 80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icon {
+  display: flex;
+}
+.icon li {
+  height: auto;
+  width: 20%;
+  list-style: none;
+}
+.icon img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.icon :hover img {
+  cursor: pointer;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#project{
+  box-sizing: border-box;
+  height: 110vh;
+}
+.projecth{
+  padding-top: 100px;
+  color: #998ceb;
+  font-size: 40px;
+  padding: 8px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.projectlist{
+  display: flex;
+  margin: 25px;
+  margin-left: 120px
+}
+.projectlist .project1{ 
+  border: 2px solid grey;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 4px;
+  background: #998ceb;
+  margin-bottom: 0px;
+}
+
+.projectlist .project1 img{ 
+ height: 180px;
+ margin: auto;
+ display: block;
+}
+
+.projectlist .project1 img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.projectlist .project1:hover img {
+  cursor: pointer;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.para{
+  font-size: 15px;
+  color: rgb(72, 65, 65);
+  text-align: center;
+}
+
+.container {
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.emaill {
+  color: #998ceb;
+  font-size: 18px;
+}
+.addr {
+  color: #998ceb;
+  margin-left: 25px;
+}
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="text"],
+input[type="date"], select,
+textarea {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+}
+.Contheading {
+  color: #998ceb;
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: grey;
+  margin-left: 280px;
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  font-size: medium;
+}
+input[type="submit"]:hover {
+  background-color: #998ceb;
+}
+.text-footer {
+  text-align: center;
+  justify-content: center;
+  padding: 5px 0;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  color: #998ceb;
+}
